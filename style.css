@@ -1,0 +1,31 @@
+body{
+    display: block;
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+#left{
+    float:left;
+    width: 485px;
+    height: 6000px;
+    background: red;
+}
+
+#right{
+    float:right;
+    width: 200px;
+    height: 1200px;
+    margin-left: 10px;
+    background: green;
+}
+
+
+.fixed {
+    position: fixed;
+}
+
+
+.stop {
+    position: relative;
+    z-index: 101;
+}
